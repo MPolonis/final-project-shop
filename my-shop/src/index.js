@@ -2,8 +2,11 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import MainLayout from './components/MainLayout/MainLayout';
+import Home from './components/Home/Home';
 import Faq from './components/Faq/Faq';
 import Policy from './components/Policy/Policy';
+import Contact from './components/Contact/Contact';
+import NoMatch from './components/NoMatch/NoMatch';
 
 
 
@@ -13,9 +16,12 @@ class App extends React.Component {
             <BrowserRouter>
                 <MainLayout>
                     <Switch>
-                        {/* <Route exact path={"/"} component={Root} /> */}
+                        <Route exact path={"/"} component={Home} /> 
+                        <Route exact path={"/home"} component={Home} />
                         <Route exact path={"/faq"} component={Faq} />
                         <Route exact path={"/regulamin"} component={Policy} /> 
+                        <Route exact path={"/kontakt"} component={Contact} />
+                        <Route component={NoMatch} />
                     </Switch>
                 </MainLayout>
             </BrowserRouter>

@@ -3,11 +3,7 @@
     height: 80px;
 }
 .menu {
-    background-image: url(../../images/slogan.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 550px;
-    background-position: center;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar {
     top: 0;
@@ -16,6 +12,9 @@
     width: 100%;
     background-color: #000;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
 }
 
 .nav-top {
@@ -46,7 +45,7 @@
                 background-color: #0C7C59;
                 visibility: hidden;
                 position: absolute;
-                bottom: -40px;
+                bottom: -37px;
         }
         &:hover {
             &::before {
@@ -65,3 +64,4 @@
         }
     }
 }
+

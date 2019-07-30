@@ -1,0 +1,48 @@
+.home-general {
+    font-family: 'Roboto', sans-serif;
+}
+
+.home {
+    background-image: url(../../images/slogan2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position: center;
+}
+
+.about-header {
+    text-align: center;
+    text-transform: uppercase;
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 50px;
+        margin-bottom: 0;
+        color: #222;
+        margin-top: 0;
+    }
+    p {
+        font-size: 16px;
+        color: #AEAEAE;
+        margin-top: 8px;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+
+    }
+}
+
+.about-paragraph {
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700; 
+    line-height: 1.8;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about-video {
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
