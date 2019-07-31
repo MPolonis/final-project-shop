@@ -7,6 +7,7 @@ import Faq from './components/Faq/Faq';
 import Policy from './components/Policy/Policy';
 import Contact from './components/Contact/Contact';
 import NoMatch from './components/NoMatch/NoMatch';
+import ProductItem from './components/ProductItem/ProductItem';
 
 
 
@@ -21,6 +22,12 @@ class App extends React.Component {
                         <Route exact path={"/faq"} component={Faq} />
                         <Route exact path={"/regulamin"} component={Policy} /> 
                         <Route exact path={"/kontakt"} component={Contact} />
+                        <Route path={"/product/:id"} render ={props => (
+                            <ProductItem
+                                id={props.match.params.id}
+                                {...props} />
+                        )}
+                        />
                         <Route component={NoMatch} />
                     </Switch>
                 </MainLayout>
