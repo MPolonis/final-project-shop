@@ -3,7 +3,7 @@ import './Contact.scss';
 import icon2 from '../../images/place-icon02.png';
 import icon3 from '../../images/cellphone-icon03.png';
 import icon4 from '../../images/at-icon04.png';
-import { Button } from 'react-bootstrap';
+import { Button } from 'reactstrap';
 
 const Contact = props => {
     return (

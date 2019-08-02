@@ -2,17 +2,21 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.home {
-    background-image: url(../../images/slogan2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 550px;
-    background-position: center;
+.slogan {
+    width: 1000px;
+    background-color: #000;
+    margin: 0 auto;
 }
 
-.about-header {
+.slogan-photo {
+    margin: 0 auto;
+    height: 550px;
+}
+
+.header {
     text-align: center;
     text-transform: uppercase;
+    margin: 50px;
     h1 {
         font-weight: 600;
         font-size: 30px;
@@ -45,4 +49,8 @@
         cursor: pointer;
         opacity: 0.8;
     }
+}
+
+.dropdownButton {
+    margin-bottom: 50px;
 }
