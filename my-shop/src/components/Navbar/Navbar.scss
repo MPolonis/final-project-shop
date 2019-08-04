@@ -65,3 +65,31 @@
     }
 }
 
+li.dropdown.nav-item {
+    background-color: #000;
+    z-index: 12000;
+}
+
+button.navbar-toggler {
+    margin: 0 auto;
+}
+
+span.navbar-toggler-icon {
+    
+}
+
+nav.navbar.navbar-expand-md.navbar-light.bg-light  {
+    background-color: #000 ;
+}
+
+button.dropdown-item {
+    cursor: none;
+    text-align: center;
+    &:hover {
+        background-color: #000;
+    }
+    a {
+        color: #fff;
+        text-transform: uppercase;
+    }
+}

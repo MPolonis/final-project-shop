@@ -1,6 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import cartReducer from './components/reducers/cartReducer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainLayout from './components/MainLayout/MainLayout';
 import Home from './components/Home/Home';
@@ -9,6 +12,7 @@ import Policy from './components/Policy/Policy';
 import Contact from './components/Contact/Contact';
 import NoMatch from './components/NoMatch/NoMatch';
 import ProductItem from './components/ProductItem/ProductItem';
+import Cart from './components/Cart/Cart';
 
 
 
@@ -23,6 +27,7 @@ class App extends React.Component {
                         <Route exact path={"/faq"} component={Faq} />
                         <Route exact path={"/regulamin"} component={Policy} /> 
                         <Route exact path={"/kontakt"} component={Contact} />
+                        <Route exact path={"/koszyk"} component={Cart} />
                         <Route path={"/product/:id"} render ={props => (
                             <ProductItem
                                 id={props.match.params.id}
@@ -37,6 +42,9 @@ class App extends React.Component {
     }
 }
 
+const store = createStore(cartReducer);
+
 const rootElement = document.getElementById('root');
-render(<App />, rootElement); 
+render(<Provider store={store}><App /></Provider>, rootElement);
+
 

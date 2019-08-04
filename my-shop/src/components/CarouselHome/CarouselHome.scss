@@ -1,12 +1,16 @@
 .carousel-all {
-    width: 1000px;
-    height: 500px;
-    background: black;
+    width: auto;
+    height: auto;
+    background-color: #000;
     margin: 0 auto;
 }
 
 .costam {
-    width: 1000px;
-    height: 550px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
 }
 
+div.custom-tag.carousel-item {
+    text-align: center;
+}
