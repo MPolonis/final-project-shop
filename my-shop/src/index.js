@@ -13,6 +13,7 @@ import Contact from './components/Contact/Contact';
 import NoMatch from './components/NoMatch/NoMatch';
 import ProductItem from './components/ProductItem/ProductItem';
 import Cart from './components/Cart/Cart';
+import './index.scss';
 
 
 

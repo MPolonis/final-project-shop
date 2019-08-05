@@ -2,21 +2,24 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .slogan {
-    width: 1000px;
-    background-color: #000;
-    margin: 0 auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+    text-align: center;
 }
 
 .slogan-photo {
-    margin: 0 auto;
-    height: 550px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
 }
 
 .header {
     text-align: center;
     text-transform: uppercase;
-    margin: 50px;
+    margin: 0  0 50px 0;
     h1 {
         font-weight: 600;
         font-size: 30px;
@@ -30,7 +33,6 @@
         color: #AEAEAE;
         margin-top: 8px;
         margin-bottom: 0;
-        padding-bottom: 50px;
 
     }
 }
@@ -53,4 +55,29 @@
 
 .dropdownButton {
     margin-bottom: 50px;
+}
+
+.slogan-inscription {
+    color: #0C7C59;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.slogan-quote {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 50px;
+    text-align: justify;
+}
+
+.slogan-signature {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.slogan-brand {
+    color: #0C7C59;
+    font-weight: 700;
 }

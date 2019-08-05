@@ -1,7 +1,7 @@
 .contact {
     background-color: #ededed;
     border-bottom: 1px solid #cfcfcf;
-    padding-bottom: 76px
+    padding-bottom: 76px;
 }
 
 .contact-header {
@@ -10,7 +10,7 @@
     h1 {
         font-weight: 600;
         font-size: 30px;
-        padding-top: 63px;
+        padding-top: 50px;
         margin-bottom: 50px;
         color: #000;
         margin-top: 0;
@@ -18,11 +18,12 @@
     }
 }
 
-.contact-form {
+.contact-form,
+.contact-form-mobile {
     font-size: 13px;
     font-weight: 300;
-    margin-top: 93px;
     margin: 0 auto;
+    padding: 30px;
     max-width: 540px;
 
     div {
@@ -44,12 +45,30 @@
 
 .contact-form {
     .contact-short-line {
-        width: 255px;
+        width: 226px;
         display: inline-block;
         &:first-child {
            margin-right: 26px;
         }
     }
+}
+
+.contact-form-mobile {
+    .contact-short-line-mobile {
+        display: block;
+            &:first-child {
+                margin: 0 auto 46px;
+            }
+    }
+}
+
+.contact-long-line-mobile {
+    width: 255px;
+}
+
+.contact-short-line-mobile,
+.contact-long-line-mobile {
+    margin: 0 auto 46px;
 }
 
 .placeholder,
@@ -79,6 +98,12 @@ textarea {
    line-height: 1.6;
 
 }
+
+.info-more-mobile {
+   height: 100%;
+   text-align: center;
+}
+
 .info-icon-btn {
    width: 34px;
    height: 34px;

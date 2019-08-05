@@ -3,7 +3,7 @@ import './Faq.scss';
 
 const Faq = props => {
     return (
-        <div className="faq">
+        <div className="faq-container">
             <h1 className="faq-title">Faq</h1>
             <h2 className="faq-ask">Czy można złożyć zamówienie bez konieczności zakładania konta ?</h2>
             <p className="faq-answer">

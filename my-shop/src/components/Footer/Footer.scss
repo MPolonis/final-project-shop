@@ -1,6 +1,6 @@
 .footer {
-    height: 100px;
     width: 100%;
+    height: 100px;
     background-color: #000;
     font-family: 'Roboto', sans-serif;
 }
@@ -8,6 +8,8 @@
 .rights {
     color: #fff;
     padding-left: 20px;
+    font-size: 16px;
+    margin-bottom: 0;
 }
 
 .nav-bottom {
@@ -56,4 +58,21 @@
             left: 10px;
         }
     }
+}
+
+footer.footer-on-mobile {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #F8F9FA;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-mobile-inscription {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0;
 }

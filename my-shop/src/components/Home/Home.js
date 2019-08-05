@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.scss';
 import data from '../../data/data.json';
+import MediaQuery from "react-responsive";
 import ProductsList from '../ProductsList/ProductsList';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import CarouserlHome from '../CarouselHome/CarouselHome';
@@ -77,15 +78,30 @@ class Home extends Component {
                 <div>
                     <ProductsList data={this.state.data} />
                 </div>
-                <div className="whoWeAre">
-                    <div className="header">
-                        <h1>O nas</h1>
-                        <p>Kim jesteśmy?</p>
+                <MediaQuery query="(max-width: 760px)">
+                    <div className="whoWeAre">
+                        <div className="header">
+                            <h1>O nas</h1>
+                            <p>Kim jesteśmy?</p>
+                        </div>
+                        <div className="slogan">
+                            <h1 className="slogan-inscription">Make Life Simple</h1>
+                            <h2 className="slogan-quote">"DaRoots to marka, która narodziła się z pasji do gór oraz środowiska. Naszym celem jest projektowanie i tworzenie sprzętu wspinaczkowego, który pozwala na przekraczanie granic niemożliwego."</h2>
+                            <h3 className="slogan-signature">-Założyciele marki <span className="slogan-brand">DaRoots</span></h3>
+                        </div>
+                    </div>
+                </MediaQuery>
+                <MediaQuery query="(min-width: 761px)">
+                    <div className="whoWeAre">
+                        <div className="header">
+                            <h1>O nas</h1>
+                            <p>Kim jesteśmy?</p>
+                        </div>
                         <div className="slogan">
                             <img className="slogan-photo" src={slogan} alt="slogan"></img>
                         </div>
                     </div>
-                </div>
+                </MediaQuery>
             </div>
         )
     }

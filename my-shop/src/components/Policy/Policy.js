@@ -3,7 +3,7 @@ import './Policy.scss';
 
 const policy = props => {
     return (
-        <div className="policy">
+        <div className="policy-container">
             <h1 className="policy-title">Regulamin</h1>
             <h2 className="policy-point">Informacje ogólne</h2>
             <ol className="policy-inter-points">
