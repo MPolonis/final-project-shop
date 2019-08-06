@@ -9,11 +9,23 @@
     margin: 50px auto;
 }
 
+.product-photo-mobile {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 50px auto;
+}
+
 .product-name,
 .product-price {
     display: block;
     font-size: 20px;
     font-weight: 700;
+}
+
+
+.product-price {
+    margin-bottom: 30px;
 }
 
 .product-description {

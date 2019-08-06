@@ -1,8 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import './Recipe.scss';
 
 class Recipe extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            modal: false
+        };
+
+        this.toggle = this.toggle.bind(this);
+    }
+
+    toggle() {
+        this.setState(prevState => ({
+            modal: !prevState.modal
+        }));
+    }
 
     componentWillUnmount() {
         if (this.refs.shipping.checked)
@@ -32,7 +47,19 @@ class Recipe extends Component {
                 </div>
                 <div className="recipe-summary"><b>Koszt całego zamówienia: {this.props.total} zł</b></div>
                 <div className="checkout">
-                    <button className="btn">Zamów</button>
+                    <div>
+                        <Button className="btn" color="danger" onClick={this.toggle}>Zamów</Button>
+                        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+                            <ModalHeader toggle={this.toggle}>Twoje zamówienie zostało złożone</ModalHeader>
+                            <ModalBody>
+                                <div className="recipe-summary"><b>Całkowity koszt Twoich zakupów: {this.props.total} zł</b></div>
+                            </ModalBody>
+                            <ModalFooter>
+                
+                                <Button color="secondary" onClick={this.toggle}>Wyjdź</Button>
+                            </ModalFooter>
+                        </Modal>
+                    </div>
                 </div>
             </div>
         )

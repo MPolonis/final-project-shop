@@ -24,8 +24,15 @@
     margin: 20px;
 }
 
+.item-desc-mobile {
+    display: block;
+}
+
 .trash-remove {
     cursor: pointer;
+    &:hover {
+        color: red;
+    }
 }
 
 .cart-order {
@@ -40,4 +47,9 @@
 .empty-cart {
     text-align: center;
     font-size: 30px;
+}
+
+.title-mobile {
+    display: block;
+    margin-top: 50px;
 }

@@ -26,7 +26,7 @@ const Contact = props => {
                     <div className="contact-long-line-mobile">
                         <textarea rows="3" cols="86" name="comment" form="usrform" placeholder="Twoja wiadomość..."></textarea>
                     </div>
-                    <Button class="btn">Wyślij</Button>
+                    <Button className="btn">Wyślij</Button>
                 </form>
                 <div className="info-place">
                     <div className="info-more-mobile">
@@ -68,7 +68,7 @@ const Contact = props => {
                     <div className="contact-long-line">
                         <textarea rows="3" cols="86" name="comment" form="usrform" placeholder="Twoja wiadomość..."></textarea>
                     </div>
-                    <Button class="btn">Wyślij</Button>
+                    <Button className="btn">Wyślij</Button>
                 </form>
                 <div className="info-place">
                     <div className="info-more">
