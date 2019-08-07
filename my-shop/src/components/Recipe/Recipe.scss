@@ -1,0 +1,11 @@
+.recipe-container {
+    min-height: 70vh;
+}
+
+.collection,
+.recipe-summary {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+

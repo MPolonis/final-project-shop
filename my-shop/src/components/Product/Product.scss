@@ -1,0 +1,31 @@
+.product-wrapper {
+    min-width: 250px;
+    min-height: 300px;
+    margin: 20px;
+}
+
+.product-info-wrapper {
+    margin-top: 10px;
+    width: 250px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    span {
+        display: block;
+    }
+    
+}
+
+.product-name {
+    padding-bottom: 10px;
+}
+
+.product-description {
+    text-align: justify;
+}
+
+.product-price {
+    padding-top: 10px;
+    color: #FF6400;
+
+}

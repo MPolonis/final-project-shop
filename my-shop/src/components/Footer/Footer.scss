@@ -1,15 +1,15 @@
 .footer {
-    top: 0;
-    right: 0;
-    height: 100px;
     width: 100%;
+    height: 100px;
     background-color: #000;
-    position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 .rights {
     color: #fff;
     padding-left: 20px;
+    font-size: 16px;
+    margin-bottom: 0;
 }
 
 .nav-bottom {
@@ -40,7 +40,7 @@
                 background-color: #0C7C59;
                 visibility: hidden;
                 position: absolute;
-                bottom: -40px;
+                bottom: -37px;
         }
         &:hover {
             &::before {
@@ -58,4 +58,21 @@
             left: 10px;
         }
     }
+}
+
+footer.footer-on-mobile {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #F8F9FA;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-mobile-inscription {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0;
 }
