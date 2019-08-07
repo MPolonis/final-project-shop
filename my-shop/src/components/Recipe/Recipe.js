@@ -38,6 +38,7 @@ class Recipe extends Component {
         return (
             <div className="recipe-container">
                 <div className="collection">
+                    <input className="discount" type="text" placeholder="Discount Code"></input>
                     <li className="collection-item">
                         <label>
                             <input type="checkbox" ref="shipping" onChange={this.handleChecked} />
