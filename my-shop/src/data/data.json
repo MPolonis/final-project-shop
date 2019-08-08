@@ -4,127 +4,111 @@
         "name": "HMS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 50,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/carabiner/carabiner_PNG65.png"
+        "photo": "/images/carabiner1.png"
     },
     {
         "id": 2,
         "name": "HMS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 45,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/carabiner/carabiner_PNG55.png"
+        "photo": "/images/carabiner2.png"
     },
     {
         "id": 3,
         "name": "HMS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 55,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/carabiner/carabiner_PNG54.png"
+        "photo": "/images/carabiner3.png"
     },
     {
         "id": 4,
         "name": "HMS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 22,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/carabiner/carabiner_PNG50.png"
+        "photo": "/images/carabiner4.png"
     },
     {
         "id": 5,
         "name": "Czekan",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 450,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/ice_axe/ice_axe_PNG58.png"
+        "photo": "/images/ice_axe1.png"
     },
     {
         "id": 6,
         "name": "Czekan",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 350,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/ice_axe/ice_axe_PNG57.png"
+        "photo": "/images/ice_axe2.png"
     },
     {
         "id": 7,
         "name": "Czekan",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 455,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/ice_axe/ice_axe_PNG52.png"
+        "photo": "/images/ice_axe3.png"
     },
     {
         "id": 8,
         "name": "Czekan",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 200,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/ice_axe/ice_axe_PNG54.png"
+        "photo": "/images/ice_axe4.png"
     },
     {
         "id": 9,
         "name": "Namiot",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 750,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/tent/tent_PNG37.png"
+        "photo": "/images/tent1.png"
     },
     {
         "id": 10,
         "name": "Namiot",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 1150,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/tent/tent_PNG38.png"
+        "photo": "/images/tent2.png"
     },
     {
         "id": 11,
         "name": "Plecak",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 250,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/backpack/backpack_PNG6356.png"
+        "photo": "/images/backpack1.png"
     },
     {
         "id": 12,
         "name": "Plecak",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 150,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/backpack/backpack_PNG6357.png"
+        "photo": "/images/backpack2.png"
     },
     {
         "id": 13,
         "name": "Plecak",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 350,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/backpack/backpack_PNG6354.png"
+        "photo": "/images/backpack3.png"
     },
     {
         "id": 14,
         "name": "Plecak",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 255,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/backpack/backpack_PNG6353.png"
+        "photo": "/images/backpack4.png"
     },
     {
         "id": 15,
         "name": "Plecak",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 159,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/thermos/thermos_PNG44.png"
+        "photo": "/images/thermos1.png"
     },
     {
         "id": 16,
         "name": "Plecak",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus tellus vel consectetur accumsan. Etiam ornare, metus quis congue pretium, nulla magna condimentum libero, at interdum justo nibh at ipsum. Donec commodo lectus ac dui iaculis cursus. Curabitur sit amet libero nec nibh semper tempus nec ac nunc. In sit.",
         "price": 178,
-        "oldprice": "",
-        "photo": "http://pngimg.com/uploads/thermos/thermos_PNG40.png"
+        "photo": "/images/thermos2.png"
     }
 ]
